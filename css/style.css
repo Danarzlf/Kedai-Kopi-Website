@@ -411,3 +411,22 @@ footer .credit a {
     font-size: 55%;
   }
 }
+
+/*setiap elemen memiliki display yaitu inline atau block , kalau inline block tidak
+jadi kalau mau atur lebar tinggi elemen yang display default nya inline kita ubah dulu displaynya menjadi inline-block*/
+
+/*display block , menambahkan baris baru ketika dibuat 
+jika lebarnya tidak diatur akan memenuhi lebar dari browser atau parentnnya 
+kita dapat mengatur tinggi dan lebarnya
+didalam elemen block dapat menyimpan tag dengan inline , inline-block , atau elemen block lagi
+contohny p h1 h2 ol ul li form hr div 
+kalo block isinya menyeseuaikan tab jadi kalo tabnya kecil isinya jadi kebawah atau ikut kecil*/
+
+/*Display inline sudah ada secara default dimasing masing tag , 
+inline tidak membuat baris baru
+inline lebar dan tingginya tidak dapat diatur
+contoh b strong i span a button input
+image inline tapi hanya image yang bisa diatur lebar tinggi nya
+ukuran website tidak mempengaruhi isi jadi kalo website dikecilin isinya akan tetap memanjang*/
+
+/*display none untuk menghilangkan dari website*/
